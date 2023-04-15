@@ -20,6 +20,8 @@ Here are the libraries required to run the project:
 
 [Streamlit App](https://utkarshdhande-adm-a5-generative-q-streamlit-generativeqa-nz4qg2.streamlit.app/)
 
+## Documentation
+ link for [Codelabs](https://codelabs-preview.appspot.com/?file_id=https://docs.google.com/document/d/14hCRe78KaSrFFnwQQhjgcOMdkFs2rql5bq15GwWNmao/edit?usp=sharing#4)
 
 ## Execution
 
