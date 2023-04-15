@@ -39,8 +39,8 @@ def retrieve(query):
 
     # build our prompt with the retrieved contexts included
     prompt_start = (
-        "Answer based on the context:\n\n"+
-        "Context:\n"
+#         "Answer based on the context:\n\n"+
+#         "Context:\n"
     )
     prompt_end = (
         f"\n\nQuestion: {query}\nAnswer:"
