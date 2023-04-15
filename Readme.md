@@ -1,4 +1,4 @@
-# Generative QA using RAG
+# Generative QA for Gaming Laptops using RAG
 
 We have build a Streamlit application which answers to any questions related to Gaming Laptops using Generative QA
 
