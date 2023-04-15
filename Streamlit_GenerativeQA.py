@@ -38,25 +38,20 @@ def retrieve(query):
 
 
     # build our prompt with the retrieved contexts included
-#     prompt_start = (
-#          "Answer based on the context.\n"
-# #          "Context:\n"
-#     )
-    prompt_end = (
+
+    prompt_answer = (
         f"\n\nQuestion: {query} \n Answer:"
     )
     # append contexts until hitting limit
     for i in range(1, len(contexts)):
         if len("\n\n---\n\n".join(contexts[:i])) >= limit:
             prompt = (
-
-                prompt_end
+                prompt_answer
             )
             break
         elif i == len(contexts)-1:
             prompt = (
-
-                prompt_end
+                prompt_answer
             )
     return prompt
 
