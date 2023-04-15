@@ -71,7 +71,7 @@ index = pinecone.Index(index_name)
 
 
 # Define the app's interface
-st.title("Gaming Laptop uaing generative Q&A")
+st.title("Gaming Laptop using generative Q&A")
 st.header("Question of any gaming laptop")
 
 # Take the user's input query
